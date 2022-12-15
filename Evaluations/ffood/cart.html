@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style/cart.css">
+    <script src="script/cart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="navBar">
+              <a id="login">Login</a>
+              <a id="signUp">Sign Up</a>
+              <a href="menu.html" id="menu">Menu</a>
+             
+        </div>
+        <div id="cart">
+            <div id="cart2">CART</div>
+            <table style="width: 100%;">
+                <tr>
+                    <th>Sl No:</th>
+                    <th>Item</th>
+                    <th>Add Item</th>
+                    <th>Qty</td>
+                    <th>Total Price</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td id="itemName">Teriyaki Chicken Casserole</td>
+                    <td id="btn">
+                    <button onclick="plus()">+</button>
+                    <button>-</button>
+                    </td>
+                    <td ><p id="totalQty">4</p></td>
+                    <td id="totalPrice">1800</td>
+                </tr>
+            </table>
+        </div>
+        <button onclick="checkout()" id="checkout1">CHECKOUT</button>
+    </div>
+</body>
+</html>

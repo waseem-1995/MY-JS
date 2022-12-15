@@ -1,0 +1,23 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+#box{
+    border: 1px solid rgb(204, 26, 26);
+    height: 450px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+#cimage{
+    width: 90%;
+    height: 65%;
+    margin-left: 5%;
+}
+#cname{
+    margin-left: 5%;
+}
+#cprice{
+    margin-left: 5%;
+}

@@ -1,0 +1,25 @@
+
+#navBar{
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+}
+a{
+    font-size: 30px;
+    
+}
+#login{
+    margin-left: 1000px;
+}
+#signUp{
+    margin-left: 50px;
+}
+#menu{
+    margin-left: 50px;
+}
+#count{
+    border: 5px solid rgb(13, 13, 85);
+    height: 74px;
+    width: 125px;
+    margin-left: 1430px;
+}

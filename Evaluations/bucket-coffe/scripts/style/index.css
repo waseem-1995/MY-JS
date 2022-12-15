@@ -1,0 +1,41 @@
+#navbar{
+    border: 1px solid black;
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+#navbar>p:first-child{
+    margin-left: 80%;
+    margin-right: 2%;
+}
+#navbar>p:nth-child(2){
+    margin-right: 2%;
+}
+#menu{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: auto;
+     gap: 30px;
+}
+#box{
+    border: 1px solid rgb(204, 26, 26);
+    height: 450px;
+    width: 90%;
+    margin-top: 20px;
+}
+#cimage{
+    width: 90%;
+    height: 65%;
+    margin-left: 5%;
+}
+#cname{
+    margin-left: 5%;
+}
+#cprice{
+    margin-left: 5%;
+}
+#addbucket{
+    margin-left: 40%;
+}
+
